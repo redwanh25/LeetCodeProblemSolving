@@ -1,4 +1,5 @@
 ﻿using LeetCodeProblemSolving.Easy;
+using LeetCodeProblemSolving.Medium;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,9 +12,11 @@ namespace LeetCodeProblemSolving
     {
         public static void Main(string[] args)
         {
-            P_804 obj = new P_804();
-            string[] str = { "gin", "zen", "gig", "msg" };
-            int res = obj.UniqueMorseRepresentations(str);
+            P_3 obj = new P_3();
+
+            string str = "abcabcbb";
+            int res = obj.LengthOfLongestSubstring(str);
+
             Console.WriteLine(res);
         }
     }
