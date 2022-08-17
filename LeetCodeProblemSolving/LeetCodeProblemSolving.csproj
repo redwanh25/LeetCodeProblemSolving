@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>LeetCodeProblemSolving.Easy.P_387</StartupObject>
+    <StartupObject>LeetCodeProblemSolving.MainClass</StartupObject>
   </PropertyGroup>
 
 </Project>
