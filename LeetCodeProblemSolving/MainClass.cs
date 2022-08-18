@@ -12,10 +12,10 @@ namespace LeetCodeProblemSolving
     {
         public static void Main(string[] args)
         {
-            P_1480 obj = new P_1480();
+            P_724 obj = new P_724();
 
-            int[] arr = { 3, 1, 2, 10, 1 };
-            var res = obj.RunningSum(arr);
+            int[] arr = { 1, 7, 3, 6, 5, 6 };
+            var res = obj.PivotIndex(arr);
 
             Console.WriteLine(res);
         }
