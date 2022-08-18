@@ -12,10 +12,10 @@ namespace LeetCodeProblemSolving
     {
         public static void Main(string[] args)
         {
-            P_3 obj = new P_3();
+            P_1338 obj = new P_1338();
 
-            string str = "abcabcbb";
-            int res = obj.LengthOfLongestSubstring(str);
+            int[] arr = { 7, 7, 7, 7, 7, 7 };
+            int res = obj.MinSetSize(arr);
 
             Console.WriteLine(res);
         }
