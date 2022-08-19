@@ -12,10 +12,10 @@ namespace LeetCodeProblemSolving
     {
         public static void Main(string[] args)
         {
-            P_724 obj = new P_724();
+            P_392 obj = new P_392();
 
-            int[] arr = { 1, 7, 3, 6, 5, 6 };
-            var res = obj.PivotIndex(arr);
+            string s = "abc", t = "ahbgdc";
+            var res = obj.IsSubsequence(s, t);
 
             Console.WriteLine(res);
         }
