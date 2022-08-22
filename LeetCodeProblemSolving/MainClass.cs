@@ -12,10 +12,10 @@ namespace LeetCodeProblemSolving
     {
         public static void Main(string[] args)
         {
-            P_392 obj = new P_392();
+            P_342 obj = new P_342();
 
-            string s = "abc", t = "ahbgdc";
-            var res = obj.IsSubsequence(s, t);
+            int x = 16;
+            var res = obj.IsPowerOfFour(x);
 
             Console.WriteLine(res);
         }
