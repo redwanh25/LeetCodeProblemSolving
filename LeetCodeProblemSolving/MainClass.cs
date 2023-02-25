@@ -12,12 +12,15 @@ namespace LeetCodeProblemSolving
     {
         public static void Main(string[] args)
         {
-            P_342 obj = new P_342();
+            P_121 obj = new P_121();
 
-            int x = 16;
-            var res = obj.IsPowerOfFour(x);
+            while (true)
+            {
+                int[] arr = Console.ReadLine().Split().Select(int.Parse).ToArray();
+                var res = obj.MaxProfit(arr);
 
-            Console.WriteLine(res);
+                Console.WriteLine(res);
+            }
         }
     }
 }
