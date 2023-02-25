@@ -12,12 +12,15 @@ namespace LeetCodeProblemSolving
     {
         public static void Main(string[] args)
         {
-            P_121 obj = new P_121();
+            P_1523 obj = new P_1523();
 
             while (true)
             {
-                int[] arr = Console.ReadLine().Split().Select(int.Parse).ToArray();
-                var res = obj.MaxProfit(arr);
+                //int[] arr = Console.ReadLine().Split().Select(int.Parse).ToArray();
+                //var res = obj.CountOdds(arr);
+                int x = Convert.ToInt32(Console.ReadLine());
+                int y = Convert.ToInt32(Console.ReadLine());
+                var res = obj.CountOdds(x, y);
 
                 Console.WriteLine(res);
             }
