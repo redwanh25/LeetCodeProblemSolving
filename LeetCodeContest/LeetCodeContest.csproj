@@ -7,9 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Biweekly_Contest_85\" />
-    <Folder Include="Weekly_Contest_307\" />
-  </ItemGroup>
-
 </Project>
