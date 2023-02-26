@@ -7,14 +7,14 @@ namespace LeetCodeProblemSolving
     {
         public static void Main(string[] args)
         {
-            P_1281 obj = new P_1281();
+            P_26 obj = new P_26();
 
             while (true)
             {
-                //int[] arr = Console.ReadLine().Split().Select(int.Parse).ToArray();
+                int[] arr = Console.ReadLine().Split().Select(int.Parse).ToArray();
 
-                int x = Convert.ToInt32(Console.ReadLine());
-                var res = obj.SubtractProductAndSum(x);
+                //int x = Convert.ToInt32(Console.ReadLine());
+                var res = obj.RemoveDuplicates(arr);
 
                 Console.WriteLine(res);
             }
