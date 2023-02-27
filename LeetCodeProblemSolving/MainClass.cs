@@ -7,11 +7,11 @@ namespace LeetCodeProblemSolving
     {
         public static void Main(string[] args)
         {
-            P_976 obj = new P_976();
+            P_66 obj = new P_66();
 
-            int[] arr = new int[] { 1, 2, 1, 10 };
+            int[] arr = new int[] { 4, 3, 2, 1 };
 
-            var res = obj.LargestPerimeter(arr);
+            var res = obj.PlusOne(arr);
             Console.WriteLine(res);
         }
     }
