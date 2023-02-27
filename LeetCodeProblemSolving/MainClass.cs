@@ -7,17 +7,12 @@ namespace LeetCodeProblemSolving
     {
         public static void Main(string[] args)
         {
-            P_26 obj = new P_26();
+            P_976 obj = new P_976();
 
-            while (true)
-            {
-                int[] arr = Console.ReadLine().Split().Select(int.Parse).ToArray();
+            int[] arr = new int[] { 1, 2, 1, 10 };
 
-                //int x = Convert.ToInt32(Console.ReadLine());
-                var res = obj.RemoveDuplicates(arr);
-
-                Console.WriteLine(res);
-            }
+            var res = obj.LargestPerimeter(arr);
+            Console.WriteLine(res);
         }
     }
 }
