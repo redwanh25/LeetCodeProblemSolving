@@ -7,11 +7,12 @@ namespace LeetCodeProblemSolving
     {
         public static void Main(string[] args)
         {
-            P_66 obj = new P_66();
+            P_1790 obj = new P_1790();
 
-            int[] arr = new int[] { 4, 3, 2, 1 };
+            //int[] arr = new int[] { 13, 12, -12, 9, 9 };
+            string s1 = "bank", s2 = "kanb";
 
-            var res = obj.PlusOne(arr);
+            var res = obj.AreAlmostEqual(s1, s2);
             Console.WriteLine(res);
         }
     }
