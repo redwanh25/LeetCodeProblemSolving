@@ -7,12 +7,13 @@ namespace LeetCodeProblemSolving
     {
         public static void Main(string[] args)
         {
-            P_1790 obj = new P_1790();
+            P_1232 obj = new P_1232();
 
-            //int[] arr = new int[] { 13, 12, -12, 9, 9 };
-            string s1 = "bank", s2 = "kanb";
+            //int[] arr1 = new int[] { 1, 3, 5, 2, 4 };
+            int[][] coordinates = new int[][] { new int[] { -4, -3 }, new int[] { 1, 0 }, new int[] { 3, -1 }, new int[] { 0, -1 }, new int[] { -5, 2 } };
+            //string s1 = "bank", s2 = "kanb";
 
-            var res = obj.AreAlmostEqual(s1, s2);
+            var res = obj.CheckStraightLine(coordinates);
             Console.WriteLine(res);
         }
     }
