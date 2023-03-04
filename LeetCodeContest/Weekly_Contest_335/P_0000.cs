@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeetCodeContest.Weekly_Contest_307
+namespace LeetCodeContest.Weekly_Contest_335
 {
-    internal class P_0001
+    internal class P_0000
     {
     }
 }
