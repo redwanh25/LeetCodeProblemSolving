@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LeetCodeContest.Weekly_Contest_307
 {
-    internal class P_0000
+    internal class P_0001
     {
     }
 }
