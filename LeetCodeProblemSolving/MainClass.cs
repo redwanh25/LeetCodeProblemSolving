@@ -8,19 +8,60 @@ namespace LeetCodeProblemSolving
     {
         public static void Main(string[] args)
         {
-            P_2444 obj = new P_2444();
+            P_104 obj = new P_104();
 
-            int[] arr2 = new int[] { 1, 3, 5, 2, 1, 5 };
-            char[] arr1 = new char[] { 'a', 'a', 'b', 'b', 'c', 'c', 'c' };
+            int[] arr1 = new int[] { 2, 3, 4, 7, 11 };
+            char[] arr2 = new char[] { 'a', 'a', 'b', 'b', 'c', 'c', 'c' };
             int[][] arr3 = new int[][] { new int[] { 1, 5, 2 }, new int[] { 7, 3, 2 }, new int[] { 3, 5, 2 } };
             string[] arr4 = new string[] { "word", "world", "row" };
-            string str1 = "hlabcdefgijkmnopqrstuvwxyz", str2 = "pq";
-            int v1 = 1, v2 = 5;
+            string str1 = "hlabcdefg", str2 = "pq";
+            int v1 = 5, v2 = 6;
 
-            var res = obj.CountSubarrays(arr2, v1, v2);
+            ListNode lNode4 = new ListNode(5, null  );
+            ListNode lNode3 = new ListNode(4, lNode4);
+            ListNode lNode2 = new ListNode(3, lNode3);
+            ListNode lNode1 = new ListNode(2, lNode2);
+            ListNode lNode0 = new ListNode(1, lNode1);
+            ListNode lHead = lNode0;
+
+            TreeNode tNode4 = new TreeNode(15, null, null);
+            TreeNode tNode3 = new TreeNode(7, null, null);
+            TreeNode tNode2 = new TreeNode(20, tNode4, tNode3);
+            TreeNode tNode1 = new TreeNode(9, null, null);
+            TreeNode tNode0 = new TreeNode(3, tNode1, tNode2);
+
+            //TreeNode tNode1 = new TreeNode(2, null, null);
+            //TreeNode tNode0 = new TreeNode(1, null, tNode1);
+            TreeNode tHead = tNode0;
+
+            var res = obj.MaxDepth(tHead);
             Console.WriteLine(res);
 
             //obj.MoveZeroes(arr1);
+        }
+    }
+
+    public class ListNode
+    {
+        public int val;
+        public ListNode? next;
+        public ListNode(int val = 0, ListNode? next = null)
+        {
+            this.val = val;
+            this.next = next;
+        }
+    }
+
+    public class TreeNode
+    {
+        public int val;
+        public TreeNode? left;
+        public TreeNode? right;
+        public TreeNode(int val = 0, TreeNode? left = null, TreeNode? right = null)
+        {
+            this.val = val;
+            this.left = left;
+            this.right = right;
         }
     }
 }
