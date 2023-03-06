@@ -8,7 +8,7 @@ namespace LeetCodeProblemSolving
     {
         public static void Main(string[] args)
         {
-            P_104 obj = new P_104();
+            P_404 obj = new P_404();
 
             int[] arr1 = new int[] { 2, 3, 4, 7, 11 };
             char[] arr2 = new char[] { 'a', 'a', 'b', 'b', 'c', 'c', 'c' };
@@ -29,12 +29,9 @@ namespace LeetCodeProblemSolving
             TreeNode tNode2 = new TreeNode(20, tNode4, tNode3);
             TreeNode tNode1 = new TreeNode(9, null, null);
             TreeNode tNode0 = new TreeNode(3, tNode1, tNode2);
-
-            //TreeNode tNode1 = new TreeNode(2, null, null);
-            //TreeNode tNode0 = new TreeNode(1, null, tNode1);
             TreeNode tHead = tNode0;
 
-            var res = obj.MaxDepth(tHead);
+            var res = obj.SumOfLeftLeaves(tHead);
             Console.WriteLine(res);
 
             //obj.MoveZeroes(arr1);
