@@ -8,13 +8,13 @@ namespace LeetCodeProblemSolving
     {
         public static void Main(string[] args)
         {
-            P_404 obj = new P_404();
+            P_242 obj = new P_242();
 
-            int[] arr1 = new int[] { 2, 3, 4, 7, 11 };
+            int[] arr1 = new int[] { 1, 2, 1, 1 };
             char[] arr2 = new char[] { 'a', 'a', 'b', 'b', 'c', 'c', 'c' };
             int[][] arr3 = new int[][] { new int[] { 1, 5, 2 }, new int[] { 7, 3, 2 }, new int[] { 3, 5, 2 } };
             string[] arr4 = new string[] { "word", "world", "row" };
-            string str1 = "hlabcdefg", str2 = "pq";
+            string str1 = "anagram", str2 = "nagaram";
             int v1 = 5, v2 = 6;
 
             ListNode lNode4 = new ListNode(5, null  );
@@ -31,7 +31,7 @@ namespace LeetCodeProblemSolving
             TreeNode tNode0 = new TreeNode(3, tNode1, tNode2);
             TreeNode tHead = tNode0;
 
-            var res = obj.SumOfLeftLeaves(tHead);
+            var res = obj.IsAnagram(str1, str2);
             Console.WriteLine(res);
 
             //obj.MoveZeroes(arr1);
