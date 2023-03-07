@@ -35,6 +35,17 @@ namespace LeetCodeProblemSolving
             Console.WriteLine(res);
 
             //obj.MoveZeroes(arr1);
+
+
+            //MyQueue obj = new MyQueue();
+            //obj.Push(1);
+            //int param_2 = obj.Pop();
+            //obj.Push(2);
+            ////int param_3 = obj.Pop();
+            //int param_3 = obj.Peek();
+            //bool param_4 = obj.Empty();
+            //Console.WriteLine(param_2 + " "+ param_3 + " " + param_4);
+
         }
     }
 
