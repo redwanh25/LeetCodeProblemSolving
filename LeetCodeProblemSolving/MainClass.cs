@@ -8,15 +8,6 @@ namespace LeetCodeProblemSolving
     {
         public static void Main(string[] args)
         {
-            P_242 obj = new P_242();
-
-            int[] arr1 = new int[] { 1, 2, 1, 1 };
-            char[] arr2 = new char[] { 'a', 'a', 'b', 'b', 'c', 'c', 'c' };
-            int[][] arr3 = new int[][] { new int[] { 1, 5, 2 }, new int[] { 7, 3, 2 }, new int[] { 3, 5, 2 } };
-            string[] arr4 = new string[] { "word", "world", "row" };
-            string str1 = "anagram", str2 = "nagaram";
-            int v1 = 5, v2 = 6;
-
             ListNode lNode4 = new ListNode(5, null  );
             ListNode lNode3 = new ListNode(4, lNode4);
             ListNode lNode2 = new ListNode(3, lNode3);
@@ -31,7 +22,16 @@ namespace LeetCodeProblemSolving
             TreeNode tNode0 = new TreeNode(3, tNode1, tNode2);
             TreeNode tHead = tNode0;
 
-            var res = obj.IsAnagram(str1, str2);
+            P_459 obj = new P_459();
+
+            int[] arr1 = new int[] { 1, 3, 2 };
+            char[] arr2 = new char[] { 'a', 'a', 'b', 'b', 'c', 'c', 'c' };
+            int[][] arr3 = new int[][] { new int[] { 1, 5, 2 }, new int[] { 7, 3, 2 }, new int[] { 3, 5, 2 } };
+            string[] arr4 = new string[] { "word", "world", "row" };
+            string str1 = "abab", str2 = "nagaram";
+            int v1 = 5, v2 = 6;
+
+            var res = obj.RepeatedSubstringPattern(str1);
             Console.WriteLine(res);
 
             //obj.MoveZeroes(arr1);
