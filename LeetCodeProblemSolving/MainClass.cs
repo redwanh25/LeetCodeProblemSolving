@@ -22,16 +22,16 @@ namespace LeetCodeProblemSolving
             TreeNode tNode0 = new TreeNode(3, tNode1, tNode2);
             TreeNode tHead = tNode0;
 
-            P_150 obj = new P_150();
+            P_989 obj = new P_989();
 
-            int[] arr1 = new int[] { 1, 3, 2 };
+            int[] arr1 = new int[] { 1, 2, 0, 0 };
             char[] arr2 = new char[] { 'a', 'a', 'b', 'b', 'c', 'c', 'c' };
             int[][] arr3 = new int[][] { new int[] { 1, 5, 2 }, new int[] { 7, 3, 2 }, new int[] { 3, 5, 2 } };
             string[] arr4 = new string[] { "10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+" };
-            string str1 = "abab", str2 = "nagaram";
-            int v1 = 5, v2 = 6;
+            string str1 = "11", str2 = "1";
+            int v1 = 34, v2 = 6;
 
-            var res = obj.EvalRPN(arr4);
+            var res = obj.AddToArrayForm(arr1, v1);
             Console.WriteLine(res);
 
             //obj.MoveZeroes(arr1);
