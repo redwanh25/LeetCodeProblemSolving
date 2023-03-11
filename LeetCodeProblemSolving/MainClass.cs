@@ -8,7 +8,7 @@ namespace LeetCodeProblemSolving
     {
         public static void Main(string[] args)
         {
-            ListNode lNode4 = new ListNode(9, null  );
+            ListNode lNode4 = new ListNode(9, null);
             ListNode lNode3 = new ListNode(5, lNode4);
             ListNode lNode2 = new ListNode(0, lNode3);
             ListNode lNode1 = new ListNode(-3, lNode2);
@@ -22,19 +22,22 @@ namespace LeetCodeProblemSolving
             TreeNode tNode0 = new TreeNode(3, tNode1, tNode2);
             TreeNode tHead = tNode0;
 
-            P_58 obj = new P_58();
+            P_1886 obj = new P_1886();
 
             int[] arr1 = new int[] { 34, 80, 80, 34, 34, 80, 80, 80, 80, 34 };
             char[] arr2 = new char[] { 'a', 'a', 'b', 'b', 'c', 'c', 'c' };
-            int[][] arr3 = new int[][] { new int[] { 1, 5, 2 }, new int[] { 7, 3, 2 }, new int[] { 3, 5, 2 } };
-            string[] arr4 = new string[] { "10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+" };
+            int[][] arrx = new int[][] { new int[] { 1, 1 }, new int[] { 0, 1 } };
+            int[][] arry = new int[][] { new int[] { 1, 1 }, new int[] { 1, 0 } };
+            int[][] arr3 = new int[][] { new int[] { 0, 0, 0 }, new int[] { 0, 1, 0 }, new int[] { 1, 1, 1 } };
+            int[][] arr4 = new int[][] { new int[] { 1, 1, 1 }, new int[] { 0, 1, 0 }, new int[] { 0, 0, 0 } };
+            string[] arr5 = new string[] { "10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+" };
             string str1 = "luffy is still joyboy", str2 = "1";
             int v1 = 34, v2 = 6;
 
-            var res = obj.LengthOfLastWord(str1);
+            var res = obj.FindRotation(arrx, arry);
             Console.WriteLine(res);
 
-            //obj.MoveZeroes(arr1);
+            //obj.Rotate(arr3);
 
 
             //MyQueue obj = new MyQueue();
