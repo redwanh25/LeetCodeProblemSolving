@@ -8,11 +8,11 @@ namespace LeetCodeProblemSolving
     {
         public static void Main(string[] args)
         {
-            ListNode lNode4 = new ListNode(5, null  );
-            ListNode lNode3 = new ListNode(4, lNode4);
-            ListNode lNode2 = new ListNode(3, lNode3);
-            ListNode lNode1 = new ListNode(2, lNode2);
-            ListNode lNode0 = new ListNode(1, lNode1);
+            ListNode lNode4 = new ListNode(9, null  );
+            ListNode lNode3 = new ListNode(5, lNode4);
+            ListNode lNode2 = new ListNode(0, lNode3);
+            ListNode lNode1 = new ListNode(-3, lNode2);
+            ListNode lNode0 = new ListNode(-10, lNode1);
             ListNode lHead = lNode0;
 
             TreeNode tNode4 = new TreeNode(15, null, null);
@@ -22,7 +22,7 @@ namespace LeetCodeProblemSolving
             TreeNode tNode0 = new TreeNode(3, tNode1, tNode2);
             TreeNode tHead = tNode0;
 
-            P_989 obj = new P_989();
+            P_109 obj = new P_109();
 
             int[] arr1 = new int[] { 1, 2, 0, 0 };
             char[] arr2 = new char[] { 'a', 'a', 'b', 'b', 'c', 'c', 'c' };
@@ -31,7 +31,7 @@ namespace LeetCodeProblemSolving
             string str1 = "11", str2 = "1";
             int v1 = 34, v2 = 6;
 
-            var res = obj.AddToArrayForm(arr1, v1);
+            var res = obj.SortedListToBST(lHead);
             Console.WriteLine(res);
 
             //obj.MoveZeroes(arr1);
